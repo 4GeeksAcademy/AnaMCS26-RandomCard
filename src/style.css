@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  box-sizing: border-box;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  margin: 120px;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+  padding-top: 200px;
+  font-size: 80px;
+}
+
+#suit-super {
+  position: absolute;
+  top: 2px;
+  left: 20px;
+}
+
+#suit-down {
+  position: absolute;
+  bottom: 2px;
+  right: 20px;
+  transform: rotate(-180deg);
+}
+
+.number {
+  position: relative;
+  bottom: 4rem;
+}
+#boton {
+  position: relative;
+  border-radius: 5px;
+  background-color: orange;
+  color: blue;
+}
